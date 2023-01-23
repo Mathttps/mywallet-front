@@ -29,14 +29,12 @@ export default function Login() {
           <Inputfo
             value={email}
             placeholder="E-mail"
-            onChange={(e) => setEmail(e.target.value)}
             type={"email"}
             required
           />
           <Inputfo
             value={password}
             placeholder="Senha"
-            onChange={(e) => setPassword(e.target.value)}
             type={"password"}
             required
           />

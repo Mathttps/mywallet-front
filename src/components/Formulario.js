@@ -25,12 +25,6 @@ export default function Form() {
       description: description,
     };
 
-    const requisitionHeader = {
-      headers: {
-        Authorization: `Bearer `,
-      },
-    };
-    console.log(requisitionHeader);
   }
 
   return (
@@ -40,14 +34,12 @@ export default function Form() {
         <FormInput
           value={value}
           placeholder="Valor"
-          onChange={(e) => setValue(e.target.value)}
           type={"number"}
           required
         />
         <FormInput
           value={description}
           placeholder="Descrição"
-          onChange={(e) => setDescription(e.target.value)}
           type={"text"}
           required
         />

@@ -71,16 +71,14 @@ export default function Entries() {
           <ion-icon name="add-circle-outline"></ion-icon>
           <p>Nova entrada</p>
         </Button>
-        <Button
-          onClick={()}
-        >
+        <Button>
           <ion-icon name="remove-circle-outline"></ion-icon>
           <p>Nova saida</p>
         </Button>
       </Button>
     </Content>
   );
-}
+
 
 const Content = styled.div`
   width: 100%;

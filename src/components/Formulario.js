@@ -13,13 +13,10 @@ export default function Form() {
 
   useEffect(() => {
     if (userSession.token === "") {
-      navigate("/");
     }
   }, [userSession, navigate]);
 
   function submitEntry(e) {
-    e.preventDefault();
-    console.log("click");
     const data = {
       value: parseInt(signedValue),
       description: description,

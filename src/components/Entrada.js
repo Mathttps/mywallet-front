@@ -33,7 +33,7 @@ export default function Entries() {
 
   useEffect(() => {
     if (userSession === undefined) {
-      navigate("/");
+      
     }
     
     getEntries();

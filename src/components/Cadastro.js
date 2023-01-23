@@ -20,9 +20,6 @@ export default function Signup() {
       email: email,
       password: password,
     };
-    const promise = axios.post(`${URL}:${PORT}/signup`, data);
-    promise.then((res) => navigate("/"));
-    promise.catch((err) => console.log(err));
     return;
   }
 
